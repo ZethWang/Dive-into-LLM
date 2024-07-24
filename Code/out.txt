@@ -1,0 +1,39 @@
+Sure, let's break down the problem into steps:
+
+1. **Total time required for each task**:
+   - Making the cake batter: 20 minutes
+   - Baking the cake: 30 minutes
+   - Cooling the cake: 2 hours = 120 minutes (since 1 hour = 60 minutes)
+   - Frosting the cake: 10 minutes
+
+2. **Total time required to complete all tasks**:
+   - Total = 20 + 30 + 120 + 10 = 180 minutes
+
+3. **Convert total time into hours**:
+   - 180 minutes = 180 / 60 = 3 hours
+
+4. **Subtract the total time from the desired serving time**:
+   - Desired serving time: 5:00 PM
+   - Subtract 3 hours from 5:00 PM to find the latest start time.
+
+Let's implement the solver function:
+
+```python
+def solver():
+    serving_time = 17  # Representing 5:00 PM in 24-hour format
+    total_time_minutes = 180
+    
+    # Calculate the latest start time
+    latest_start_time = serving_time - (total_time_minutes / 60)
+    
+    # Convert back to 12-hour format and ensure it's correctly formatted
+    if latest_start_time < 12:
+        return f"{latest_start_time:.2f} PM"
+    else:
+        return f"{latest_start_time - 12:.2f} AM"
+
+latest_start_time = solver()
+print(latest_start_time)
+```
+
+This function will calculate and print the latest time Jordan can start making the cake to have it ready to serve at 5:00 PM.
