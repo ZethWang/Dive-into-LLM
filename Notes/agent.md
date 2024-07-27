@@ -4,6 +4,7 @@
 
 ## [生成式 AI 的发展方向，应当是 Chat 还是 Agent？](https://www.zhihu.com/question/637090848/answer/3363233578)
 
+## [lilianweng openai](https://lilianweng.github.io/posts/2023-06-23-agent/)
 ## [大模型Agent的核心还是prompt？](https://www.zhihu.com/question/628670548/answer/3284156768?utm_medium=social&utm_psn=1800595210364932096&utm_source=qq)
 
 ## [AI Agent基础知识，从这篇博文学起](https://www.53ai.com/news/LargeLanguageModel/2024071891583.html)
